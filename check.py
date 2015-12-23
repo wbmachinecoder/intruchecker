@@ -6,12 +6,12 @@ class Check:
 
 
     def gather_info(self):
-     raise NotImplementedError()
+    	raise NotImplementedError("Subclass must implement abstract method")
 
     def run(self):
-     raise NotImplementedError()
+    	raise NotImplementedError("Subclass must implement abstract method")
 
     def report(self):
-     raise NotImplementedError()
+	raise NotImplementedError("Subclass must implement abstract method")
 
 
